@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#FFA8D6;
+    --cor2:#F65F95;
+    --cor3:#B14969;
+}
+body{
+    background-image: linear-gradient(to bottom,var(--cor1),var(--cor2),var(--cor3) );
+    background-attachment: fixed;
+}
+
+#corpo{
+    width: 700px;
+    height: 550px;
+    margin: auto;
+    border-radius: 17px ;
+    box-shadow: 2px 2px 2px 2px black;
+    background-color:rgba(255, 255, 255, 0.37);
+
+
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 30px;
+    
+  }
+
+#coração{
+text-align: center;
+padding-top: 30px;
+
+    
+}
+  
